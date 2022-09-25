@@ -11,3 +11,10 @@ function guest(pts) {
     guestScore += pts;
     guestEl.textContent = guestScore;
 }
+
+function reset() {
+    homeScore = 0;
+    homeEl.textContent = homeScore;
+    guestScore = 0;
+    guestEl.textContent = guestScore;
+}

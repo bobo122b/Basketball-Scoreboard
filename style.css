@@ -5,7 +5,8 @@
 
 body {
     margin: 0;
-    background: #1B244A;
+    background-image: linear-gradient(to bottom left, #0C4A6E, #0EA5E9);
+    height: 100vh;
 }
 
 .container {
@@ -50,11 +51,11 @@ h3 {
 .plus__btn {    
     box-sizing: border-box;
     font-family: Cursed Timer ULiL, sans-serif;
-    color: #9AABD8;
-    background: #1B244A;
+    color: #E0F2FE;
+    background: #0C4A6E;
     width: 45px;
     height: 45px;
-    border: 2px solid #9AABD8;
+    border: 2px solid #E0F2FE;
     border-radius: 5px;
     font-style: normal;
     font-weight: 400;
@@ -64,4 +65,12 @@ h3 {
     text-align: center;
     cursor: pointer;
     padding-right: 10px;
+}
+
+.reset {
+    width: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    padding-left: 10px;
 }
